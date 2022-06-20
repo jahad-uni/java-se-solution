@@ -14,3 +14,4 @@ public class Bill {
     private double amount;
     private String consumeType;  // low , normal, high
 }
+
