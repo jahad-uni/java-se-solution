@@ -3,7 +3,7 @@ package Topic02.OOP;
 public class Lesson12Interface {
 }
 
-interface Person
+interface User
 {
     public String name = "farhad";
     final String family = "noori";
@@ -12,7 +12,7 @@ interface Person
 //    int code; throw compile time error
 }
 
-class PersonImpl implements Person
+class UserImpl implements User
 {
     public static void main(String args[])
     {

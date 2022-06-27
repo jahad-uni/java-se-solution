@@ -83,16 +83,37 @@
 2) Why can’t we create the object of an abstract class?
 
 #### Lesson12 Interface
+1) What is an interface?
+2) What is the use of interface?
+3) Multiple Inheritance
 
 #### Lesson13 Encapsulation
+1) What is encapsulation?
+2) data Hiding
 
 #### Lesson14 Abstraction
+1) What is Abstraction?
+2) Method hiding
 
 #### Lesson15 Packages
+1) why use packages
+2) Java builtin packages
+3) custom packages
 
 #### Lesson16 AccessModifier
+1) default
+2) private
+3) protected
+4) public
 
 #### Lesson17 Final
+1) final variable
+2) Blank final variable
+3) Uninitialized static final variable
+4) final method
+5) final class
+
+
 
 
 
