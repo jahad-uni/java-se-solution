@@ -9,3 +9,5 @@
 #### Lesson-04 autoboxing and unboxing
 
 #### Lesson-05 Wrapper Class
+
+#### Lesson-06 Generic Class
