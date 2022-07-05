@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lesson08LinkedList {
+public class Lesson09LinkedList {
 }
 
 class AddElementToLinkedList {
