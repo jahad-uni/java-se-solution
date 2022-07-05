@@ -1,5 +1,7 @@
 package Topic01.Basics;
 
+import java.util.Arrays;
+
 public class Lesson07ForLoop {
 }
 
@@ -46,6 +48,15 @@ class EnhancedForLoopToIterateStringArray {
         for (String word : arr) {
             System.out.println(word);
         }
+    }
+}
+
+class UsingStreamAPIToIterateStringArray {
+    public static void main(String[] args){
+        String[] arr ={"hello","to","everybody"};
+        //Stream API
+        Arrays.stream(arr).forEach(ch->System.out.println(ch));
+//        Arrays.stream(arr).forEach(System.out::println);
     }
 }
 
