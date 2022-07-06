@@ -7,7 +7,7 @@ public class Lesson04ThrowVSThrows {
 }
 
 class SimpleThrow {
-    static void checkEligibilty(int studentAge, int studentWeight){
+    static void checkEligibility(int studentAge, int studentWeight){
         if(studentAge<12 && studentWeight<40) {
             throw new ArithmeticException("Student is not eligible for registration");
         }
@@ -18,7 +18,7 @@ class SimpleThrow {
 
     public static void main(String[] args){
         System.out.println("Welcome to the Registration process!!");
-        checkEligibilty(10, 39);
+        checkEligibility(10, 39);
         System.out.println("Have a nice day..");
     }
 }
