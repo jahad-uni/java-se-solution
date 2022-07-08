@@ -110,13 +110,16 @@ class FinallyBlockWithSystemExit {
     }
 }
 
-class FinallyBlockCanOverrideReturnValues {
+class FinallyBlockCanOverrideVariable {
 
     public static int myMethod() {
+        int var;
         try {
-            return 5;
+            var = 5;
+            return var;
         } finally {
-            return 19;
+            var = 10;
+//            return var;   //if uncomment this line new return override return var in try block
         }
     }
 
@@ -126,7 +129,7 @@ class FinallyBlockCanOverrideReturnValues {
 
 }
 //*********************************************
-//Flow of control in try/catch/finally blocks:
+//Flow of control in try/catch/finally blocks :
 
 //1-If exception occurs in try block’s body then control immediately transferred(skipping rest of the statements in try block) to the catch block. Once catch block finished execution then finally block and after that rest of the program.
 //2-If there is no exception occurred in the code which is present in try block then first, the try block gets executed completely and then control gets transferred to finally block (skipping catch blocks).
