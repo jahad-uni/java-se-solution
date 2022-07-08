@@ -6,7 +6,7 @@ import java.util.List;
 public class Lesson07ArrayListGetAndSearch {
 }
 
-class GetElementFromArrayList {
+class GetElementByIndex {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
         al.add("pen");
@@ -25,7 +25,7 @@ class GetElementFromArrayList {
     }
 }
 
-class ContainsExample {
+class GetElementByContains {
     public static void main(String[] args) {
 
         ArrayList<String> al = new ArrayList<>();

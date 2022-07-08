@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Lesson01ArrayList {
+public class Lesson09AllInOneBasicArrayListCommands {
 }
 
 class AddElementToArrayList {

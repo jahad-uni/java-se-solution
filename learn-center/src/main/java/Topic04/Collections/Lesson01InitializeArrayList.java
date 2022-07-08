@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Lesson02InitializeArrayList {
+public class Lesson01InitializeArrayList {
 }
 
 class InitializeWithinNormalWay {
