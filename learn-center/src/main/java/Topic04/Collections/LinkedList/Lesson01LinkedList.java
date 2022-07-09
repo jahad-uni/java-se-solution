@@ -1,11 +1,11 @@
-package Topic04.Collections;
+package Topic04.Collections.LinkedList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lesson09LinkedList {
+public class Lesson01LinkedList {
 }
 
 class AddElementToLinkedList {

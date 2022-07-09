@@ -1,8 +1,8 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.util.ArrayList;
 
-public class Lesson04ArrayListLength {
+public class Lesson03ArrayListLength {
 }
 
 class ArrayListLengthExample

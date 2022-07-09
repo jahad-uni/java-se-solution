@@ -1,11 +1,11 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Lesson08ArrayListSomeOtherMethod {
+public class Lesson07ArrayListSomeOtherMethod {
 }
 
 class CompareTwoArrayList {

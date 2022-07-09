@@ -1,9 +1,9 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Lesson05ArrayListSorting {
+public class Lesson04ArrayListSorting {
 }
 
 class StringArrayListSorting {

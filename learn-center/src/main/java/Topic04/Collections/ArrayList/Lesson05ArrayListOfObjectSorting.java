@@ -1,10 +1,10 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class Lesson06ArrayListOfObjectSorting {
+public class Lesson05ArrayListOfObjectSorting {
 }
 
 class StudentWithComparable implements Comparable {

@@ -1,9 +1,9 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lesson07ArrayListGetAndSearch {
+public class Lesson06ArrayListGetAndSearch {
 }
 
 class GetElementByIndex {

@@ -1,10 +1,10 @@
-package Topic04.Collections;
+package Topic04.Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Lesson09AllInOneBasicArrayListCommands {
+public class Lesson08AllInOneBasicArrayListCommands {
 }
 
 class AddElementToArrayList {
