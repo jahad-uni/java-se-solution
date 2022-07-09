@@ -3,7 +3,7 @@ package Topic04.Collections.Lesson01ArrayList.Lesson02ArrayListSorting;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Lesson04ArrayListSorting {
+public class Lesson01ArrayListSorting {
 }
 
 class StringArrayListSorting {

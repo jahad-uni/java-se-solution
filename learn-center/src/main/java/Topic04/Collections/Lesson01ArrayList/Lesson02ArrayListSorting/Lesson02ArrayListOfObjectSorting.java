@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class Lesson05ArrayListOfObjectSorting {
+public class Lesson02ArrayListOfObjectSorting {
 }
 
 class StudentWithComparable implements Comparable {

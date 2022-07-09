@@ -19,7 +19,7 @@ class InitializeWithinNormalWay {
 
 class InitializeWithArraysAsList{
     public static void main(String[] args) {
-        ArrayList<String> obj = new ArrayList<String>(
+        ArrayList<String> obj = new ArrayList<>(
                 Arrays.asList("farhad", "farzad", "mehrdad"));
         System.out.println("Elements are:" + obj);
     }
@@ -27,7 +27,7 @@ class InitializeWithArraysAsList{
 
 class InitializeWithAnonymousInnerClass {
     public static void main(String[] args) {
-        ArrayList<String> cities = new ArrayList<String>(){{
+        ArrayList<String> cities = new ArrayList<>(){{
             add("Tehran");
             add("Esfahan");
             add("Yazd");
@@ -38,7 +38,7 @@ class InitializeWithAnonymousInnerClass {
 
 class InitializeWithCollectionsNCopies {
     public static void main(String[] args) {
-        ArrayList<Integer> intlist = new ArrayList<Integer>(Collections.nCopies(10, 5));
+        ArrayList<Integer> intlist = new ArrayList<>(Collections.nCopies(10, 5));
         System.out.println("Lesson01ArrayList items: "+intlist);
     }
 }

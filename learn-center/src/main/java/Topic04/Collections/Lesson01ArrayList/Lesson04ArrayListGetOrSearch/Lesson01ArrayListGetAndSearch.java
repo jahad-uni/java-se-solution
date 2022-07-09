@@ -3,7 +3,7 @@ package Topic04.Collections.Lesson01ArrayList.Lesson04ArrayListGetOrSearch;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lesson06ArrayListGetAndSearch {
+public class Lesson01ArrayListGetAndSearch {
 }
 
 class GetElementByIndex {

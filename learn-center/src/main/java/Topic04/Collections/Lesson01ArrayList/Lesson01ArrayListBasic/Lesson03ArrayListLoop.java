@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class Lesson03ArrayListLoop {
 }
 
-class LoopExample {
+class LoopOnArrayList {
     public static void main(String[] args) {
 
         ArrayList<Integer> arrList = new ArrayList<>();
@@ -15,19 +15,19 @@ class LoopExample {
         arrList.add(39);
         arrList.add(40);
 
-        /* For Loop for iterating Lesson01ArrayList */
+        //For Loop for iterating
         System.out.println("For Loop");
         for (int counter = 0; counter < arrList.size(); counter++) {
             System.out.println(arrList.get(counter));
         }
 
-        /* Advanced For Loop*/
+        // Advanced For Loop
         System.out.println("Advanced For Loop");
         for (Integer num : arrList) {
             System.out.println(num);
         }
 
-        /* While Loop for iterating Lesson01ArrayList*/
+        // While Loop for iterating Lesson01ArrayList
         System.out.println("While Loop");
         int count = 0;
         while (arrList.size() > count) {
@@ -35,24 +35,24 @@ class LoopExample {
             count++;
         }
 
-        /*Looping Array List using Iterator*/
+        // Looping Array List using Iterator
         System.out.println("Iterator");
         Iterator<Integer> iter = arrList.iterator();
         while (iter.hasNext()) {
             System.out.println(iter.next());
         }
 
-        /*Looping Array List using ListIterator*/
+        // Looping Array List using ListIterator
         System.out.println("Iterator");
         Iterator<Integer> listIter = arrList.listIterator();
         while (listIter.hasNext()) {
             System.out.println(iter.next());
         }
 
-        /*Looping Using Stream API*/
+        // Looping Using Stream API
         System.out.println("Using Stream API");
-        arrList.forEach(num->System.out.println(num));
-//        arrList.forEach(System.out::println);
+        arrList.forEach(num -> System.out.println(num));
+        // arrList.forEach(System.out::println);
     }
 }
 

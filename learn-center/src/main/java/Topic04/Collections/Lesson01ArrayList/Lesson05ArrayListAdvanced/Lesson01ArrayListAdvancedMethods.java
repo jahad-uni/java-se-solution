@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Lesson07ArrayListAdvancedMethods {
+public class Lesson01ArrayListAdvancedMethods {
 }
 
 class CompareTwoArrayList {
@@ -288,100 +288,5 @@ class IncreaseTheCapacitySizeOfArrayList {
 
         for (String temp : al)
             System.out.println(temp);
-    }
-}
-
-class ArrayListToArrayUsingManualWay {
-    public static void main(String[] args) {
-
-        // Lesson01ArrayList declaration and initialization
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("String1");
-        arrayList.add("String2");
-        arrayList.add("String3");
-        arrayList.add("String4");
-
-        //Lesson01ArrayList to Array Conversion
-        String[] array = new String[arrayList.size()];
-        for (int j = 0; j < arrayList.size(); j++)
-            array[j] = arrayList.get(j);
-
-        for (String k : array)
-            System.out.println(k);
-    }
-}
-
-class ArrayListToArrayUsingToArrayMethod {
-    public static void main(String[] args) {
-
-        //Lesson01ArrayList declaration and initialization
-        ArrayList<String> friendsNames = new ArrayList<>();
-        friendsNames.add("farhad");
-        friendsNames.add("mehrdad");
-        friendsNames.add("saeed");
-        friendsNames.add("reza");
-
-        //Lesson01ArrayList to Array Conversion
-        String[] friendsNamesInArray = friendsNames.toArray(new String[friendsNames.size()]);
-
-        for (String k : friendsNamesInArray)
-            System.out.println(k);
-    }
-}
-
-class ArrayToArrayListUsingManualWay {
-    public static void main(String[] args) {
-
-        //Lesson01ArrayList declaration
-        ArrayList<String> arraylist = new ArrayList<>();
-
-        //Initialized Array
-        String[] array = {"Text1", "Text2", "Text3", "Text4"};
-
-        for (int i = 0; i < array.length; i++)
-            arraylist.add(array[i]);
-
-        for (String str : arraylist)
-            System.out.println(str);
-    }
-}
-
-class ArrayToArrayListUsingArraysAsList {
-    public static void main(String[] args) {
-
-        // Array Declaration and initialization
-        String cityNames[] = {"Tehran", "Rasht", "Shiraz", "Kish"};
-
-        //Array to Lesson01ArrayList conversion
-        ArrayList<String> cityList = new ArrayList<>(Arrays.asList(cityNames));
-
-        //Adding new elements to the converted List
-        cityList.add("Ghazvin");
-        cityList.add("Kerman");
-
-        for (String str : cityList)
-            System.out.println(str);
-    }
-}
-
-class ArrayToArrayListUsingCollectionsAddAll {
-    public static void main(String[] args) {
-
-        //Array Declaration and initialization
-        String[] array = {"Hi", "Hello", "Howdy", "Bye"};
-
-        //Lesson01ArrayList declaration
-        ArrayList<String> arraylist = new ArrayList<>();
-
-        //Conversion
-        //This method is mush faster than Arrays.asList()
-        Collections.addAll(arraylist, array);
-
-        //Adding new elements to the converted List
-        arraylist.add("String1");
-        arraylist.add("String2");
-
-        for (String str : arraylist)
-            System.out.println(str);
     }
 }
