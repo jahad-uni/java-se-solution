@@ -1,10 +1,10 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson01ArrayListBasic;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Lesson08AllInOneBasicArrayListCommands {
+public class Lesson01AllInOneBasicArrayListMethods {
 }
 
 class AddElementToArrayList {
@@ -30,7 +30,7 @@ class AddElementToArrayList {
 
 class AddElementToArrayListAtParticularIndex {
     public static void main(String[] args) {
-        // ArrayList of String type
+        // Lesson01ArrayList of String type
         ArrayList<String> al = new ArrayList<String>();
         // simple add() methods for adding elements at the end
         al.add("Hi");
@@ -78,12 +78,12 @@ class CopyAllListToArrayList {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
-        //Adding elements to the ArrayList
+        //Adding elements to the Lesson01ArrayList
         al.add("Text 1");
         al.add("Text 2");
         al.add("Text 3");
 
-        System.out.println("ArrayList Elements are: " + al);
+        System.out.println("Lesson01ArrayList Elements are: " + al);
 
         //Adding elements to a List
         List<String> list = new ArrayList<>();
@@ -91,9 +91,9 @@ class CopyAllListToArrayList {
         list.add("Text 5");
         list.add("Text 6");
 
-        //Adding all elements of list to ArrayList using addAll
+        //Adding all elements of list to Lesson01ArrayList using addAll
         al.addAll(list);
-        System.out.println("Updated ArrayList Elements: " + al);
+        System.out.println("Updated Lesson01ArrayList Elements: " + al);
     }
 }
 
@@ -169,7 +169,7 @@ class IterateOnArrayList {
         alist.add("arash");
         alist.add("siamak");
 
-        //iterating ArrayList
+        //iterating Lesson01ArrayList
         for (String str : alist)
             System.out.println(str);
     }
@@ -182,7 +182,7 @@ class ArrayListSize {
         numbers.add(7);
         numbers.add(5);
         numbers.add(6);
-        System.out.println("Number of elements in ArrayList: " + numbers.size());
+        System.out.println("Number of elements in Lesson01ArrayList: " + numbers.size());
     }
 }
 
@@ -199,7 +199,7 @@ class ArrayListSomeMethod {
         obj.add("siamak");
 
         // Displaying elements
-        System.out.println("Original ArrayList:");
+        System.out.println("Original Lesson01ArrayList:");
         for (String str : obj)
             System.out.println(str);
 
@@ -211,16 +211,16 @@ class ArrayListSomeMethod {
         obj.add(1, "ramin");
 
         // Displaying elements
-        System.out.println("ArrayList after add operation:");
+        System.out.println("Lesson01ArrayList after add operation:");
         for (String str : obj)
             System.out.println(str);
 
-        //Remove elements from ArrayList like this
-        obj.remove("ali"); //Removes "ali" from ArrayList
-        obj.remove("arash"); //Removes "arash" from ArrayList
+        //Remove elements from Lesson01ArrayList like this
+        obj.remove("ali"); //Removes "ali" from Lesson01ArrayList
+        obj.remove("arash"); //Removes "arash" from Lesson01ArrayList
 
         // Displaying elements
-        System.out.println("ArrayList after remove operation:");
+        System.out.println("Lesson01ArrayList after remove operation:");
         for (String str : obj)
             System.out.println(str);
 
@@ -228,13 +228,13 @@ class ArrayListSomeMethod {
         obj.remove(1); //Removes Second element from the List
 
         // Displaying elements
-        System.out.println("Final ArrayList:");
+        System.out.println("Final Lesson01ArrayList:");
         for (String str : obj)
             System.out.println(str);
     }
 }
 
-class ArrayListSorting {
+class ArrayListSorting1 {
     public static void main(String[] args) {
         ArrayList<String> fruits = new ArrayList<String>();
         fruits.add("Orange");

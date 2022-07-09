@@ -1,8 +1,8 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson01ArrayListBasic;
 
 import java.util.ArrayList;
 
-public class Lesson03ArrayListLength {
+public class Lesson04ArrayListLength {
 }
 
 class ArrayListLengthExample
@@ -20,7 +20,7 @@ class ArrayListLengthExample
         al.remove(1);
         al.remove(2);
         System.out.println("Size after remove operations: "+al.size());
-        System.out.println("Final ArrayList: ");
+        System.out.println("Final Lesson01ArrayList: ");
         for(int num: al){
             System.out.println(num);
         }

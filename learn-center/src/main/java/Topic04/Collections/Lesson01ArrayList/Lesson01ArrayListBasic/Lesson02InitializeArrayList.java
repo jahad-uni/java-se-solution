@@ -1,10 +1,10 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson01ArrayListBasic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Lesson01InitializeArrayList {
+public class Lesson02InitializeArrayList {
 }
 
 class InitializeWithinNormalWay {
@@ -39,7 +39,7 @@ class InitializeWithAnonymousInnerClass {
 class InitializeWithCollectionsNCopies {
     public static void main(String[] args) {
         ArrayList<Integer> intlist = new ArrayList<Integer>(Collections.nCopies(10, 5));
-        System.out.println("ArrayList items: "+intlist);
+        System.out.println("Lesson01ArrayList items: "+intlist);
     }
 }
 

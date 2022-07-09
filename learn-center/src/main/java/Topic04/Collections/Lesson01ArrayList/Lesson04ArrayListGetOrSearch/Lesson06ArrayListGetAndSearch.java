@@ -1,4 +1,4 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson04ArrayListGetOrSearch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,10 +18,10 @@ class GetElementByIndex {
         al.add("paper");
         al.add("white board");
 
-        System.out.println("First element of the ArrayList: " + al.get(0));
-        System.out.println("Third element of the ArrayList: " + al.get(2));
-        System.out.println("Sixth element of the ArrayList: " + al.get(5));
-        System.out.println("Fourth element of the ArrayList: " + al.get(3));
+        System.out.println("First element of the Lesson01ArrayList: " + al.get(0));
+        System.out.println("Third element of the Lesson01ArrayList: " + al.get(2));
+        System.out.println("Sixth element of the Lesson01ArrayList: " + al.get(5));
+        System.out.println("Fourth element of the Lesson01ArrayList: " + al.get(3));
     }
 }
 
@@ -34,13 +34,13 @@ class GetElementByContains {
         al.add("ink");
         al.add("notebook");
 
-        System.out.println("ArrayList contains the string 'ink pen': "
+        System.out.println("Lesson01ArrayList contains the string 'ink pen': "
                 +al.contains("ink pen"));
-        System.out.println("ArrayList contains the string 'pen': "
+        System.out.println("Lesson01ArrayList contains the string 'pen': "
                 +al.contains("pen"));
-        System.out.println("ArrayList contains the string 'pencil': "
+        System.out.println("Lesson01ArrayList contains the string 'pencil': "
                 +al.contains("pencil"));
-        System.out.println("ArrayList contains the string 'book': "
+        System.out.println("Lesson01ArrayList contains the string 'book': "
                 +al.contains("book"));
 
         ArrayList<Integer> al2 = new ArrayList<>();
@@ -63,7 +63,7 @@ class GetSublistFromArrayList {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
-        //Addition of elements in ArrayList
+        //Addition of elements in Lesson01ArrayList
         al.add("Farhad");
         al.add("Mehrdad");
         al.add("Farzad");
@@ -71,11 +71,11 @@ class GetSublistFromArrayList {
         al.add("Ali");
         al.add("Naser");
 
-        System.out.println("Original ArrayList Content: " + al);
+        System.out.println("Original Lesson01ArrayList Content: " + al);
         try {
-            //Sublist to ArrayList
+            //Sublist to Lesson01ArrayList
             ArrayList<String> al2 = new ArrayList<>(al.subList(1, 10));
-            System.out.println("SubList stored in ArrayList: " + al2);
+            System.out.println("SubList stored in Lesson01ArrayList: " + al2);
 
             //Sublist to List
             List<String> list = al.subList(1, 4);
@@ -107,7 +107,7 @@ class FirstIndexOfElementInArrayList {
 
 class LastIndexOfElementInArrayList {
     public static void main(String[] args) {
-        //ArrayList of Integer Type
+        //Lesson01ArrayList of Integer Type
         ArrayList<Integer> al = new ArrayList<>();
         al.add(1);
         al.add(88);

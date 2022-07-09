@@ -1,4 +1,4 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson02ArrayListSorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -40,7 +40,7 @@ class IntegerArrayListSorting  {
         arraylist.add(2);
         arraylist.add(7);
         arraylist.add(3);
-        /* ArrayList before the sorting*/
+        /* Lesson01ArrayList before the sorting*/
         System.out.println("Before Sorting:");
         for(int counter: arraylist){
             System.out.println(counter);
@@ -49,14 +49,13 @@ class IntegerArrayListSorting  {
         /* Sorting of arraylist using Collections.sort*/
         Collections.sort(arraylist);
 
-        /* ArrayList after sorting*/
+        /* Lesson01ArrayList after sorting*/
         System.out.println("After Sorting:");
         for(int counter: arraylist){
             System.out.println(counter);
         }
     }
 }
-
 
 class SortingArrayListInDescendingOrder  {
 
@@ -67,17 +66,17 @@ class SortingArrayListInDescendingOrder  {
         arraylist.add("CC");
         arraylist.add("FF");
 
-        /*Unsorted List: ArrayList content before sorting*/
+        //Unsorted List: Lesson01ArrayList content before sorting
         System.out.println("Before Sorting:");
         for(String str: arraylist){
             System.out.println(str);
         }
 
-        /* Sorting in decreasing order*/
+        // Sorting in decreasing order
         Collections.sort(arraylist, Collections.reverseOrder());
 
-        /* Sorted List in reverse order*/
-        System.out.println("ArrayList in descending order:");
+        // Sorted List in reverse order
+        System.out.println("Lesson01ArrayList in descending order:");
         for(String str: arraylist){
             System.out.println(str);
         }

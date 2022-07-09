@@ -1,11 +1,11 @@
-package Topic04.Collections.LinkedList;
+package Topic04.Collections.Lesson02LinkedList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lesson01LinkedList {
+public class Lesson01BasicLinkedListCommands {
 }
 
 class AddElementToLinkedList {
@@ -27,7 +27,7 @@ class AddElementToLinkedList {
         //Adding an element to the 3rd position
         list.add(2, "Saeed");
 
-        //Iterating LinkedList
+        //Iterating Lesson02LinkedList
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
@@ -39,10 +39,10 @@ class AddElementToSpecificIndexInLinkedList {
 
     public static void main(String[] args) {
 
-        // Create a LinkedList
+        // Create a Lesson02LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
 
-        // Add elements to LinkedList
+        // Add elements to Lesson02LinkedList
         linkedList.add("Tehran");
         linkedList.add("Rasht");
         linkedList.add("Esfahan");
@@ -53,7 +53,7 @@ class AddElementToSpecificIndexInLinkedList {
         linkedList.add(4, "NEW ELEMENT");
 
         // Iterating the list in forward direction
-        System.out.println("LinkedList elements After Addition:");
+        System.out.println("Lesson02LinkedList elements After Addition:");
         Iterator it = linkedList.iterator();
         while (it.hasNext()) {
             System.out.println(it.next());
@@ -80,7 +80,7 @@ class RemoveElementFromLinkedList {
         //Removing Last element
         list.removeLast();
 
-        //Iterating LinkedList
+        //Iterating Lesson02LinkedList
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.print(iterator.next() + " ");
@@ -90,7 +90,7 @@ class RemoveElementFromLinkedList {
         list.remove(1);
 
         System.out.print("\nAfter removing second element: ");
-        //Iterating LinkedList again
+        //Iterating Lesson02LinkedList again
         Iterator<String> iterator2 = list.iterator();
         while (iterator2.hasNext()) {
             System.out.print(iterator2.next() + " ");
@@ -102,10 +102,10 @@ class RemoveElementFromSpecificIndexInLinkedList {
 
     public static void main(String[] args) {
 
-        // Create a LinkedList
+        // Create a Lesson02LinkedList
         LinkedList<String> linkedlist = new LinkedList<>();
 
-        // Add elements to LinkedList
+        // Add elements to Lesson02LinkedList
         linkedlist.add("Cobol");
         linkedlist.add("JCL");
         linkedlist.add("C++");
@@ -113,7 +113,7 @@ class RemoveElementFromSpecificIndexInLinkedList {
         linkedlist.add("Java");
 
         // Displaying Elements before replace
-        System.out.println("LinkedList Elements:");
+        System.out.println("Lesson02LinkedList Elements:");
         for (String str : linkedlist)
             System.out.println(str);
 
@@ -121,7 +121,7 @@ class RemoveElementFromSpecificIndexInLinkedList {
         Object e1 = linkedlist.remove(2);
         System.out.println("\nElement " + e1 + " removed from the list\n");
 
-        // LinkedList elements after remove
+        // Lesson02LinkedList elements after remove
         System.out.println("After removal:");
         for (String str2 : linkedlist)
             System.out.println(str2);
@@ -132,10 +132,10 @@ class RemoveAllElementFromLinkedList {
 
     public static void main(String[] args) {
 
-        // Create a LinkedList
+        // Create a Lesson02LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
 
-        // Add elements to LinkedList
+        // Add elements to Lesson02LinkedList
         linkedList.add("Item1");
         linkedList.add("Item2");
         linkedList.add("Item3");
@@ -147,10 +147,10 @@ class RemoveAllElementFromLinkedList {
         for (String str : linkedList)
             System.out.println(str);
 
-        // Removing all the elements from LinkedList
+        // Removing all the elements from Lesson02LinkedList
         linkedList.clear();
 
-        // LinkedList elements after remove
+        // Lesson02LinkedList elements after remove
         System.out.println("After clear():");
         for (String str2 : linkedList)
             System.out.println(str2);
@@ -158,21 +158,21 @@ class RemoveAllElementFromLinkedList {
     }
 }
 
-class AppendAllTheElementsOfListToLinkedList {
+class AppendListToLinkedListAndViceVersa {
 
     public static void main(String[] args) {
 
-        // create a LinkedList
+        // create a Lesson02LinkedList
         LinkedList<String> linkedList = new LinkedList<>();
 
-        // Add elements to the LinkedList
+        // Add elements to the Lesson02LinkedList
         linkedList.add("AA");
         linkedList.add("BB");
         linkedList.add("CC");
         linkedList.add("DD");
 
         // Displaying linked list before add
-        System.out.println("Before: LinkedList: " + linkedList);
+        System.out.println("Before: Lesson02LinkedList: " + linkedList);
 
         // create a new list having few elements
         List<String> arrayList = new ArrayList<>();
@@ -180,10 +180,13 @@ class AppendAllTheElementsOfListToLinkedList {
         arrayList.add("Item2");
         arrayList.add("Item3");
 
-        // Append the list elements to LinkedList
+        // Append the list elements to Lesson02LinkedList
         linkedList.addAll(arrayList);
+        // Append the Lesson02LinkedList elements to List
+        arrayList.addAll(linkedList);
 
-        System.out.println("After: LinkedList: " + linkedList);
+        System.out.println("After: Lesson02LinkedList: " + linkedList);
+        System.out.println("After: Lesson01ArrayList: " + arrayList);
     }
 }
 

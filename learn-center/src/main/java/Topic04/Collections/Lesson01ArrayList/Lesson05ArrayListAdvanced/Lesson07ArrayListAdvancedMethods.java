@@ -1,11 +1,11 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson05ArrayListAdvanced;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Lesson07ArrayListSomeOtherMethod {
+public class Lesson07ArrayListAdvancedMethods {
 }
 
 class CompareTwoArrayList {
@@ -23,13 +23,13 @@ class CompareTwoArrayList {
         al2.add("bye");
         al2.add("Good night");
 
-        //Storing the comparison output in ArrayList<String>
+        //Storing the comparison output in Lesson01ArrayList<String>
         ArrayList<String> al3 = new ArrayList<>();
         for (String temp : al1)
             al3.add(al2.contains(temp) ? "Yes" : "No");
         System.out.println(al3);
 
-        //Storing the comparison output in ArrayList<Integer>
+        //Storing the comparison output in Lesson01ArrayList<Integer>
         ArrayList<Integer> al4 = new ArrayList<>();
         for (String temp2 : al1)
             al4.add(al2.contains(temp2) ? 1 : 0);
@@ -48,7 +48,7 @@ class SwappingTwoElementsInArrayList {
         al.add("mohammad");
         al.add("reza");
 
-        System.out.println("ArrayList before Swap:");
+        System.out.println("Lesson01ArrayList before Swap:");
         for (String temp : al) {
             System.out.println(temp);
         }
@@ -56,7 +56,7 @@ class SwappingTwoElementsInArrayList {
         //Swapping 2nd(index 1) element with the 5th(index 4) element
         Collections.swap(al, 1, 4);
 
-        System.out.println("ArrayList after swap:");
+        System.out.println("Lesson01ArrayList after swap:");
         for (String temp : al)
             System.out.println(temp);
     }
@@ -135,19 +135,19 @@ class DeSerializationFileToArrayList {
 
 class CombineTwoArrayList {
     public static void main(String[] args) {
-        //First ArrayList
+        //First Lesson01ArrayList
         ArrayList<String> arraylist1 = new ArrayList<>();
         arraylist1.add("AL1: E1");
         arraylist1.add("AL1: E2");
         arraylist1.add("AL1: E3");
 
-        //Second ArrayList
+        //Second Lesson01ArrayList
         ArrayList<String> arraylist2 = new ArrayList<>();
         arraylist2.add("AL2: E1");
         arraylist2.add("AL2: E2");
         arraylist2.add("AL2: E3");
 
-        //New ArrayList
+        //New Lesson01ArrayList
         ArrayList<String> al = new ArrayList<>();
         al.addAll(arraylist1);
         al.addAll(arraylist2);
@@ -163,23 +163,23 @@ class CloneArraylistToAnotherOne {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
-        //Adding elements to the ArrayList
+        //Adding elements to the Lesson01ArrayList
         al.add("Apple");
         al.add("Orange");
         al.add("Mango");
         al.add("Grapes");
-        System.out.println("ArrayList: " + al);
+        System.out.println("Lesson01ArrayList: " + al);
 
         ArrayList<String> al2 = (ArrayList<String>) al.clone();
-        System.out.println("Shallow copy of ArrayList: " + al2);
+        System.out.println("Shallow copy of Lesson01ArrayList: " + al2);
 
-        //add and remove on original ArrayList
+        //add and remove on original Lesson01ArrayList
         al.add("Fig");
         al.remove("Orange");
 
         //Display of both ArrayLists after add & remove
-        System.out.println("Original ArrayList:" + al);
-        System.out.println("Cloned ArrayList:" + al2);
+        System.out.println("Original Lesson01ArrayList:" + al);
+        System.out.println("Cloned Lesson01ArrayList:" + al2);
     }
 }
 
@@ -189,28 +189,28 @@ class MakeEmptyAnArrayList {
         al1.add("abc");
         al1.add("xyz");
 
-        System.out.println("ArrayList before clear: " + al1);
+        System.out.println("Lesson01ArrayList before clear: " + al1);
         // clear()
         //This method has better performance than removeAll()
         al1.clear();
-        System.out.println("ArrayList after clear: " + al1);
+        System.out.println("Lesson01ArrayList after clear: " + al1);
 
         ArrayList<String> al2 = new ArrayList<>();
         al2.add("text 1");
         al2.add("text 2");
 
-        System.out.println("ArrayList before removeAll: " + al2);
+        System.out.println("Lesson01ArrayList before removeAll: " + al2);
         al2.removeAll(al2);
-        System.out.println("ArrayList before removeAll: " + al2);
+        System.out.println("Lesson01ArrayList before removeAll: " + al2);
     }
 }
 
 class CheckArrayListIsEmpty {
     public static void main(String[] args) {
-        //ArrayList of Integer Type
+        //Lesson01ArrayList of Integer Type
         ArrayList<Integer> al = new ArrayList<>();
         //Checking whether the list is empty
-        System.out.println("Is ArrayList Empty: " + al.isEmpty());
+        System.out.println("Is Lesson01ArrayList Empty: " + al.isEmpty());
 
         //Adding Integer elements
         al.add(1);
@@ -219,7 +219,7 @@ class CheckArrayListIsEmpty {
         al.add(17);
 
         //Again checking for isEmpty
-        System.out.println("Is ArrayList Empty: " + al.isEmpty());
+        System.out.println("Is Lesson01ArrayList Empty: " + al.isEmpty());
 
         //Displaying elements of the list
         for (Integer num : al) {
@@ -256,7 +256,7 @@ class ReplaceTheValueOfExistingElementInArrayList {
         arrayList.add(5);
         arrayList.add(6);
         arrayList.add(7);
-        System.out.println("ArrayList before update: " + arrayList);
+        System.out.println("Lesson01ArrayList before update: " + arrayList);
         //Updating 1st element
         arrayList.set(0, 11);
         //Updating 2nd element
@@ -267,13 +267,13 @@ class ReplaceTheValueOfExistingElementInArrayList {
         arrayList.set(3, 44);
         //Updating 5th element
         arrayList.set(4, 55);
-        System.out.println("ArrayList after Update: " + arrayList);
+        System.out.println("Lesson01ArrayList after Update: " + arrayList);
     }
 }
 
 class IncreaseTheCapacitySizeOfArrayList {
     public static void main(String[] args) {
-        // ArrayList with Capacity 4
+        // Lesson01ArrayList with Capacity 4
         ArrayList<String> al = new ArrayList<>(4);
         //Added 4 elements
         al.add("Hi");
@@ -294,14 +294,14 @@ class IncreaseTheCapacitySizeOfArrayList {
 class ArrayListToArrayUsingManualWay {
     public static void main(String[] args) {
 
-        // ArrayList declaration and initialization
+        // Lesson01ArrayList declaration and initialization
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("String1");
         arrayList.add("String2");
         arrayList.add("String3");
         arrayList.add("String4");
 
-        //ArrayList to Array Conversion
+        //Lesson01ArrayList to Array Conversion
         String[] array = new String[arrayList.size()];
         for (int j = 0; j < arrayList.size(); j++)
             array[j] = arrayList.get(j);
@@ -314,14 +314,14 @@ class ArrayListToArrayUsingManualWay {
 class ArrayListToArrayUsingToArrayMethod {
     public static void main(String[] args) {
 
-        //ArrayList declaration and initialization
+        //Lesson01ArrayList declaration and initialization
         ArrayList<String> friendsNames = new ArrayList<>();
         friendsNames.add("farhad");
         friendsNames.add("mehrdad");
         friendsNames.add("saeed");
         friendsNames.add("reza");
 
-        //ArrayList to Array Conversion
+        //Lesson01ArrayList to Array Conversion
         String[] friendsNamesInArray = friendsNames.toArray(new String[friendsNames.size()]);
 
         for (String k : friendsNamesInArray)
@@ -332,7 +332,7 @@ class ArrayListToArrayUsingToArrayMethod {
 class ArrayToArrayListUsingManualWay {
     public static void main(String[] args) {
 
-        //ArrayList declaration
+        //Lesson01ArrayList declaration
         ArrayList<String> arraylist = new ArrayList<>();
 
         //Initialized Array
@@ -352,7 +352,7 @@ class ArrayToArrayListUsingArraysAsList {
         // Array Declaration and initialization
         String cityNames[] = {"Tehran", "Rasht", "Shiraz", "Kish"};
 
-        //Array to ArrayList conversion
+        //Array to Lesson01ArrayList conversion
         ArrayList<String> cityList = new ArrayList<>(Arrays.asList(cityNames));
 
         //Adding new elements to the converted List
@@ -370,7 +370,7 @@ class ArrayToArrayListUsingCollectionsAddAll {
         //Array Declaration and initialization
         String[] array = {"Hi", "Hello", "Howdy", "Bye"};
 
-        //ArrayList declaration
+        //Lesson01ArrayList declaration
         ArrayList<String> arraylist = new ArrayList<>();
 
         //Conversion

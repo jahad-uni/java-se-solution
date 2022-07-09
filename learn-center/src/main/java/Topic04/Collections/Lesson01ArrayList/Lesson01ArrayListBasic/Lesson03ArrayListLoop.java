@@ -1,9 +1,9 @@
-package Topic04.Collections.ArrayList;
+package Topic04.Collections.Lesson01ArrayList.Lesson01ArrayListBasic;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Lesson02ArrayListLoop {
+public class Lesson03ArrayListLoop {
 }
 
 class LoopExample {
@@ -15,7 +15,7 @@ class LoopExample {
         arrList.add(39);
         arrList.add(40);
 
-        /* For Loop for iterating ArrayList */
+        /* For Loop for iterating Lesson01ArrayList */
         System.out.println("For Loop");
         for (int counter = 0; counter < arrList.size(); counter++) {
             System.out.println(arrList.get(counter));
@@ -27,7 +27,7 @@ class LoopExample {
             System.out.println(num);
         }
 
-        /* While Loop for iterating ArrayList*/
+        /* While Loop for iterating Lesson01ArrayList*/
         System.out.println("While Loop");
         int count = 0;
         while (arrList.size() > count) {
@@ -57,7 +57,7 @@ class LoopExample {
 }
 
 //**********************************************
-//How iterate in ArrayList
+//How iterate in Lesson01ArrayList
 //1-For Loop
 //2-Advanced for loop
 //3-While Loop
