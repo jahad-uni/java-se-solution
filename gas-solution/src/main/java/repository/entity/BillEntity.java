@@ -5,9 +5,8 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class BillEntity {
+public class BillEntity extends Entity{
 
-    protected long id;
     private long customerId;
     private Date from;
     private Date to;

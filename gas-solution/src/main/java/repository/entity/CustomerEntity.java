@@ -3,9 +3,9 @@ package repository.entity;
 import lombok.Data;
 
 @Data
- public class CustomerEntity {
+ public class CustomerEntity extends Entity {
 
-    private Long id;
+
     private String name;
     private String family;
     private short age;
