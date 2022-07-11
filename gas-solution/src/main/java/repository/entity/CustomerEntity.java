@@ -1,9 +1,9 @@
-package model.db;
+package repository.entity;
 
 import lombok.Data;
 
 @Data
- public class Customer {
+ public class CustomerEntity {
 
     private Long id;
     private String name;
