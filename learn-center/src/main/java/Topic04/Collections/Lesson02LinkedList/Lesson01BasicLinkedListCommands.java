@@ -1,4 +1,4 @@
-package Topic04.Collections.Lesson02LinkedList.Lesson02LinkedListAddOrRemove;
+package Topic04.Collections.Lesson02LinkedList;
 
 import java.util.ArrayList;
 import java.util.Iterator;

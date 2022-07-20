@@ -1,10 +1,10 @@
-package Topic04.Collections.Lesson02LinkedList.Lesson03LinkedListGetOrSearch;
+package Topic04.Collections.Lesson02LinkedList;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lesson01LinkedListGetOrSearch {
+public class Lesson02LinkedListGetOrSearch {
 }
 
 class GetFirstAndLast {

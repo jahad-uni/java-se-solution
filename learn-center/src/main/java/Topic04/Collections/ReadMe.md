@@ -6,17 +6,17 @@
 
 #### Lesson-03 Vector
 
-#### Lesson-04 HashMap
+#### Lesson-04 HashSet
 
-#### Lesson-05 TreeMap
+#### Lesson-05 TreeSet
 
-#### Lesson-06 LinkedHashMap
+#### Lesson-06 LinkedHashSet
 
-#### Lesson-07 HashSet
+#### Lesson-07 HashMap
 
-#### Lesson-08 TreeSet
+#### Lesson-08 TreeMap
 
-#### Lesson-09 LinkedHashSet
+#### Lesson-09 LinkedHashMap
 
 #### Lesson-10 Hashtable
 

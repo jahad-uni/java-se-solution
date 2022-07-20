@@ -1,9 +1,9 @@
-package Topic04.Collections.Lesson02LinkedList.Lesson04LinkedListIteratorOrListIterator;
+package Topic04.Collections.Lesson02LinkedList;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Lesson02LinkedListListIterator {
+public class Lesson04LinkedListListIterator {
     public static void main(String[] args) {
 
         // Create a LinkedList

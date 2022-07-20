@@ -1,9 +1,9 @@
-package Topic04.Collections.Lesson02LinkedList.Lesson04LinkedListIteratorOrListIterator;
+package Topic04.Collections.Lesson02LinkedList;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Lesson03LinkedListInReverseSequentialOrder {
+public class Lesson05LinkedListInReverseSequentialOrder {
 
     public static void main(String[] args) {
 
