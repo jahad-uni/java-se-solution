@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Lesson01Boxing {
 
     public static void myMethod(Integer num){
+
         System.out.println(num);
     }
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
 package Topic06.MiscellaneousJavaCore.Lesson02MultiThread;
 
-public class Lesson01CountWithExtendThred extends Thread{
+public class Lesson01CountWithExtendThread extends Thread{
 
-    Lesson01CountWithExtendThred()
+    Lesson01CountWithExtendThread()
     {
         super("my extending thread");
         System.out.println("my thread created" + this);
@@ -15,7 +15,7 @@ public class Lesson01CountWithExtendThred extends Thread{
             for (int i=0 ;i<10;i++)
             {
                 System.out.println("Printing the count " + i);
-                Thread.sleep(1000);
+                Thread.sleep(3000);
             }
         }
         catch(InterruptedException e)

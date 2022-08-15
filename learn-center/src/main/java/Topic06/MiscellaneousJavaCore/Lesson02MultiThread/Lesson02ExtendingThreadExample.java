@@ -1,16 +1,16 @@
 package Topic06.MiscellaneousJavaCore.Lesson02MultiThread;
 
-public class Lesson02ExtendingExample {
+public class Lesson02ExtendingThreadExample {
 
     public static void main(String args[])
     {
-        Lesson01CountWithExtendThred cnt = new Lesson01CountWithExtendThred();
+        Lesson01CountWithExtendThread cnt = new Lesson01CountWithExtendThread();
         try
         {
             while(cnt.isAlive())
             {
                 System.out.println("Main thread will be alive till the child thread is live");
-                Thread.sleep(1500);
+                Thread.sleep(1000);
             }
         }
         catch(InterruptedException e)
