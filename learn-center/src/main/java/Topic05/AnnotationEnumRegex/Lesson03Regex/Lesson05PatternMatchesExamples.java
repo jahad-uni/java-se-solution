@@ -2,7 +2,8 @@ package Topic05.AnnotationEnumRegex.Lesson03Regex;
 
 import java.util.regex.Pattern;
 
-public class Lesson05LastTipsOfRegex {
+public class Lesson05PatternMatchesExamples {
+
     public static void main(String[] args) {
 
         // It would return true if string matches exactly "farhad"
@@ -58,10 +59,10 @@ public class Lesson05LastTipsOfRegex {
         // $ denotes end of the line
 
         System.out.println(
-                Pattern.matches("^This$", "This is Chaitanya")); //False
+                Pattern.matches("^This$", "This is java")); //False
         System.out.println(
                 Pattern.matches("^This$", "This")); //True
         System.out.println(
-                Pattern.matches("^This$", "Is This Chaitanya")); //False
+                Pattern.matches("^This$", "Is This java")); //False
     }
 }

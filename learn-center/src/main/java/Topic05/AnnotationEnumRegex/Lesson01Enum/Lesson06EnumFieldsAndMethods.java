@@ -32,8 +32,10 @@ public class Lesson06EnumFieldsAndMethods {
         Directions dir1 = Directions.SOUTH;
         System.out.println(dir1.getDirectionCode());
         System.out.println(dir1.getDirectionValue());
+        System.out.println(dir1.ordinal());  //position value
         Directions dir2 = Directions.EAST;
         System.out.println(dir2.getDirectionCode());
         System.out.println(dir2.getDirectionValue());
+        System.out.println(dir2.ordinal()); //position value
     }
 }

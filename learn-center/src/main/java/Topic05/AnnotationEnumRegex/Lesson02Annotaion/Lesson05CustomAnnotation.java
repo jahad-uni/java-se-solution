@@ -28,13 +28,12 @@ public class Lesson05CustomAnnotation {
 
         //Accessing annotation
         Lesson05CustomAnnotation h=new Lesson05CustomAnnotation();
-        Method sayHello1=h.getClass().getMethod("sayHello1");
 
+        Method sayHello1=h.getClass().getMethod("sayHello1");
         MyAnnotation myAnnotation1=sayHello1.getAnnotation(MyAnnotation.class);
         System.out.println("sayHello1 value is: " + myAnnotation1.value());
 
         Method sayHello2=h.getClass().getMethod("sayHello2");
-
         MyAnnotation myAnnotation2=sayHello2.getAnnotation(MyAnnotation.class);
         System.out.println("sayHello2 value is: " + myAnnotation2.value());
 

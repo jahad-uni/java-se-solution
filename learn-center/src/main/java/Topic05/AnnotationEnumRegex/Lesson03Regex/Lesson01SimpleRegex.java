@@ -6,7 +6,7 @@ public class Lesson01SimpleRegex {
 
     public static void main(String[] args) {
         String content = "This is Regex " +
-                "from JahadBook.com.";
+                "from JavaBook.com.";
 
         String pattern = ".*Book.*";
 

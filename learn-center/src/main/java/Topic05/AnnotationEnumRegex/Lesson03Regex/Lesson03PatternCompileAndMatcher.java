@@ -7,7 +7,7 @@ public class Lesson03PatternCompileAndMatcher {
 
     public static void main(String[] args) {
         //matches()
-        String content = "This is a java class! class";
+        String content = "This is a java Class! class";
         String patternString = ".*ClaSs.*";
         Pattern pattern = Pattern.compile(patternString, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(content);
