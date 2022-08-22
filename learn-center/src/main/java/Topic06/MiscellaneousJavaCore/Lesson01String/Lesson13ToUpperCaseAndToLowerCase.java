@@ -20,6 +20,6 @@ public class Lesson13ToUpperCaseAndToLowerCase {
         System.out.println(strNew.toLowerCase());
 
         //By specifying Locale
-        System.out.println(strNew.toLowerCase(Locale.FRANCE));
+        System.out.println(strNew.toLowerCase(Locale.ENGLISH));
     }
 }

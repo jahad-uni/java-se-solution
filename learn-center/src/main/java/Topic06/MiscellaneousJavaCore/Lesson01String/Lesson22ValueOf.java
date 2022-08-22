@@ -10,7 +10,7 @@ public class Lesson22ValueOf {
         long l = 111L; //long value
         double d = 2222.22; //double value
         char ch = 'A'; //char value
-        char array[] = {'a', 'b', 'c'}; //char array
+        char[] array = {'a', 'b', 'c'}; //char array
 
         //converting int to String
         String str1 = String.valueOf(i);

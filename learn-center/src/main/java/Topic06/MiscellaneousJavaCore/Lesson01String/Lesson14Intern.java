@@ -7,8 +7,8 @@ public class Lesson14Intern {
         // ********** Java String intern() method **********
         String strr1 = "JavaIntern";
 
-        // The Java String intern() method searches the string "JavaIntern"
-        // in the memory pool and returns the reference of it.
+       /* The Java String intern() method searches the string "JavaIntern"
+        in the memory pool and returns the reference of it.*/
         String strr2 = new String("JavaIntern").intern();
         System.out.println("strr1==strr2: "+(strr1==strr2));  //true
 

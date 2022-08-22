@@ -9,3 +9,5 @@
 #### Lesson-04 Interface changes – introduction of default and static methods
 
 #### Lesson-05 Stream API
+
+#### Lesson-06 forEach Method

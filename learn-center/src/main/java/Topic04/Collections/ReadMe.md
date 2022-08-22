@@ -25,7 +25,3 @@
 #### Lesson-12 PriorityQueue
 
 #### Lesson-13 Deque & ArrayDeque
-
-#### Lesson-14 Comparable Interface
-
-#### Lesson-15 Comparator Interface
